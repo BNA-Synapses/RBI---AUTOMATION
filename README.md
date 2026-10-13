@@ -1,15 +1,18 @@
 # RBI Automação
 
-Automação web desenvolvida para agilizar o início de contatos com clientes via WhatsApp.
+Aplicação web simples desenvolvida para resolver uma necessidade real da minha rotina de trabalho com logística reversa.
 
-O sistema recebe os dados do contato, como **nome, telefone e operadora**, e facilita a abertura da conversa no WhatsApp, reduzindo etapas manuais durante o atendimento.
+Durante o serviço, uma das tarefas recorrentes é iniciar contatos com clientes pelo WhatsApp a partir dos dados recebidos nas ordens de serviço. Como esse processo envolve repetir etapas como conferir nome, tratar o número de telefone, preparar a mensagem e abrir a conversa, criei esta automação para tornar esse fluxo mais rápido e prático.
+
+O objetivo do projeto não é construir uma automação complexa, mas aplicar desenvolvimento web a um problema real do dia a dia e reduzir trabalho manual repetitivo.
 
 ## 🚀 Funcionalidades
 
-- Entrada de dados do cliente
-- Tratamento do número de telefone
-- Geração automatizada do contato
-- Abertura direta da conversa no WhatsApp
+- Entrada do nome e telefone do cliente
+- Seleção da operadora
+- Tratamento e validação básica do número de telefone
+- Geração da mensagem de primeiro contato
+- Abertura da conversa no WhatsApp com a mensagem preparada
 - Interface simples e responsiva
 
 ## 💻 Tecnologias
@@ -30,15 +33,21 @@ RBI-Automacao/
 
 ## ▶️ Como usar
 
-1. Abra o arquivo `index.html` no navegador.
-2. Informe os dados solicitados.
-3. Clique em **Abrir WhatsApp**.
-4. O sistema processará os dados e abrirá o contato no WhatsApp.
+1. Abra o `index.html` no navegador ou acesse a versão publicada.
+2. Informe o nome e o telefone do cliente.
+3. Selecione a operadora.
+4. Clique em **Abrir WhatsApp**.
+5. A aplicação processará os dados e abrirá a conversa com a mensagem preparada.
+6. O envio da mensagem continua sendo feito manualmente pelo usuário.
 
-## 🎯 Objetivo
+## 🎯 Contexto do projeto
 
-O projeto surgiu da necessidade de tornar mais rápido e prático um processo repetitivo de atendimento, transformando etapas manuais em um fluxo automatizado.
+Este projeto nasceu durante uma operação real de trabalho. Em vez de criar uma aplicação apenas como exercício de programação, identifiquei uma etapa repetitiva da rotina e desenvolvi uma ferramenta pequena para resolvê-la.
 
----
+A proposta é simples: entender o problema, automatizar o que faz sentido e manter a decisão final com o usuário.
 
-Projeto desenvolvido como aplicação prática de automação e desenvolvimento web.
+Esse projeto também faz parte de um processo maior de observar necessidades reais da operação e desenvolver ferramentas conforme os problemas aparecem.
+
+## 🔒 Dados
+
+A aplicação não utiliza banco de dados próprio para armazenar informações dos clientes. O repositório contém apenas o código da ferramenta e não inclui dados reais utilizados durante o trabalho.
